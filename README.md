@@ -3,10 +3,11 @@
 
 This is just a practise of html and css by recreating https://w2.zuriboard.com/
 
-This project has three (3) pages currently which are:
+This project has four (4) pages currently which are:
 - Homepage
 - Login page
 - Forget password page
+- Dashboard page (when log in)
 
 ## Want to contribute?
 You're welcome. There are still some features to be added like the fullscreen button on desktop view. You can add some other pages too
