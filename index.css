@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* body {
+
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px;
+    box-shadow: 0px 1px 5px #88888880;
+    
+}
+
+img.logo {
+    height: 25px;
+    width: 100px;
+}
+
+button, .submit {
+    background-color: #E7332B;
+    padding: 9px 22px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: none;
+}
+
+button:hover, .submit:hover {
+    background-color: #0C3252;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    place-content: center;
+    height: 85vh;
+    background-color: #F8F8F8;
+    
+}
+
+.main h2, p {
+    font-size: 48px;
+    color: #555555;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form {
+    width: 400px;
+}
+
+.form h2, .form p {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #145388;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #88888880;
+    
+}
+
+.chk {
+    margin: 10px 0;
+    
+}
+
+.log {
+    display: flex;
+    justify-content: right;
+    
+}
+
+div a {
+    margin-right: 15px;
+}
+
+.box {
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    height: 35px;
+    padding: 15px;
+    box-shadow: 0px 0px 2px #88888856;
+    font-size: 16px;margin-bottom: 5px;
+    outline: none;
+}
+
+
+.box:focus {
+    background-color: #E8F0FE;
+    border: 1px solid #3716c9;
+}
+
+
+a {
+    display: inline-flex;
+    align-self: flex-end;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+label {
+    color: gray;
+    margin: 15px 0 5px 0;
+}
+
+.submit {
+    font-size: 13px;
+    padding: 9px 18px;
+    align-self: flex-end;
+}
+
+.fgt {
+    width: 420px;
+}
+
+.submit-2 {
+    margin-top: 5px;
+}
