@@ -51,6 +51,8 @@ button:hover, .submit:hover {
     align-items: center;
     place-content: center;
     height: 85vh;
+    width: 100%;
+    padding: 5px;
     background-color: #F8F8F8;
     
 }
